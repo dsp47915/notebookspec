@@ -25,10 +25,9 @@
     - Feature extraction: Regex
     - Handle duplicated datas
     - Handle outliers
-    - Feature Engineering
-    
 3. Feature Scaling and Split dataset
     - Feature Selection
+    - Feature Engineering
     - train test split
     - Feature Scaling
 4. Train, Test Model (Base line)

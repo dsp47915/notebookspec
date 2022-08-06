@@ -36,4 +36,4 @@ webapp -> [Laptop Prices Prediction](https://syunar-22-01-laptops-prices-predict
     - Compare to other models
     - Hyperparameter tuning
 6. Feature Importance
-7. Deploy web app [Laptop Prices Prediction](https://syunar-22-01-laptops-prices-prediction-analysis-app-wep6ow.streamlitapp.com/)
+7. Deploy web app [see code](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis/blob/main/app.py)

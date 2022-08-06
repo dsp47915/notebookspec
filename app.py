@@ -36,7 +36,7 @@ mem_size = st.selectbox('ram_size [GB]',(4, 8, 12, 16, 32, 48, 64), index=1)
 ssd_size = st.selectbox('ssd_size [GB]',(0, 128, 256, 512, 1000, 1500, 2000, 3000, 4000), index=3)
 cpu = st.selectbox('cpu',cpu_train, index=0)
 gpu = st.selectbox('gpu',gpu_train, index=0)
-resolution = st.selectbox('ssd_size [GB]',('1366x768', '1600x900', '1920x1080', '2304×1440', '2560x1440', '2560×1600', '2880×1800', '3000x2000', '3200x1800', '3840x2160'), index=1)
+resolution = st.selectbox('ssd_size [GB]',('1366x768', '1600x900', '1920x1080', '2304x1440', '2560x1440', '2560x1600', '2880x1800', '3000x2000', '3200x1800', '3840x2160'), index=1)
 weight = st.slider("weight [kg]: ", min_value=0.4, max_value=5.0, value=1.8, step=0.1)
 refresh_rate = st.selectbox("refresh_rate [Hz]: ", (60, 90, 120, 144, 165, 240, 300, 360), index=1)
 size = st.slider("size [inch]: ", min_value=10, max_value=18, value=15, step=1)
@@ -114,7 +114,7 @@ df = pd.DataFrame([input_dict])
 
 # resolution
 df_res = df['resolution'].str.lower().str.replace(' ','')\
-            .str.extract(r'(\d+)[xX](\d+)').astype('int')
+            .str.extract(r'(\d+)[xX]+(\d+)').astype('int')
 # convert to numeric [pixel] e.g. 1920x1080 = 2073600 px
 df['resolution'] = df_res[0] * df_res[1]
 

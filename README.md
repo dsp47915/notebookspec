@@ -18,7 +18,7 @@ webapp -> [Laptop Prices Prediction](https://syunar-22-01-laptops-prices-predict
 ## Steps/Pipeline:
 0. Understand Problems
 1. Data Collection
-    - ใช้การ WebScraping เว็บไซต์ notebookspec.com [(code here)](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis/blob/main/22_01_01_webscraping.ipynb)  เป็นเว็บไซต์เกี่ยวกับคอมพิวเตอร์ โดยจะมีสเปกและราคาของทุกแบรนด์ ซึ่งจำเป็นอย่างมากในการตั้งราคาขาย โดยดูจากราคาตลาดด้วย 
+    - ใช้การ WebScraping เว็บไซต์ notebookspec.com [(see code)](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis/blob/main/22_01_01_webscraping.ipynb)  เป็นเว็บไซต์เกี่ยวกับคอมพิวเตอร์ โดยจะมีสเปกและราคาของทุกแบรนด์ ซึ่งจำเป็นอย่างมากในการตั้งราคาขาย โดยดูจากราคาตลาดด้วย 
 2. Data Cleaning
     - Clean column names
     - Handle missing values
@@ -36,4 +36,6 @@ webapp -> [Laptop Prices Prediction](https://syunar-22-01-laptops-prices-predict
     - Compare to other models
     - Hyperparameter tuning
 6. Feature Importance
-7. Deploy web app [see code](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis/blob/main/app.py)
+7. Deploy web app [(see code)](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis/blob/main/app.py)
+    webapp -> [Laptop Prices Prediction](https://syunar-22-01-laptops-prices-prediction-analysis-app-wep6ow.streamlitapp.com/)
+

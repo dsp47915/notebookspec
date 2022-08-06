@@ -18,7 +18,7 @@
 ## Steps/Pipeline:
 0. Understand Problems
 1. Data Collection
-    - ใช้การ WebScraping [fullcode](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis/blob/main/22_01_01_webscraping.ipynb) เว็บไซต์ notebookspec.com เป็นเว็บไซต์เกี่ยวกับคอมพิวเตอร์ โดยจะมีสเปกและราคาของทุกแบรนด์ ซึ่งจำเป็นอย่างมากในการตั้งราคาขาย โดยดูจากราคาตลาดด้วย 
+    - ใช้การ WebScraping [(full code)](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis/blob/main/22_01_01_webscraping.ipynb) เว็บไซต์ notebookspec.com เป็นเว็บไซต์เกี่ยวกับคอมพิวเตอร์ โดยจะมีสเปกและราคาของทุกแบรนด์ ซึ่งจำเป็นอย่างมากในการตั้งราคาขาย โดยดูจากราคาตลาดด้วย 
 2. Data Cleaning
     - Clean column names
     - Handle missing values

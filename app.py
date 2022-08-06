@@ -30,7 +30,7 @@ def predict(model, input_df):
     return y_pred[0]
 
 st.title('📈 Laptop Prices Prediction 💻')
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis)
+st.markdown('_[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/syunar/22-01_Laptops-Prices-Prediction-Analysis)_')
 
 mem_size = st.selectbox('ram_size [GB]',(4, 8, 12, 16, 32, 48, 64), index=1)
 ssd_size = st.selectbox('ssd_size [GB]',(0, 128, 256, 512, 1000, 1500, 2000, 3000, 4000), index=3)

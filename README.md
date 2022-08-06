@@ -1,5 +1,5 @@
 # Prices Prediction
-webapp -> [Laptop Prices Prediction](https://syunar-22-01-laptops-prices-prediction-analysis-app-wep6ow.streamlitapp.com/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)(https://syunar-22-01-laptops-prices-prediction-analysis-app-wep6ow.streamlitapp.com/)
 ## Problem:
 ยอดขายตกลง อาจจะเกิดได้จากหลายสาเหตุ หนึ่งในสาเหตุนั้นก็คือกลไกลการตั้งราคาขายของสินค้า
 - เพื่อที่จะเพิ่มประสิทธิภาพในการตั้งราคาขาย

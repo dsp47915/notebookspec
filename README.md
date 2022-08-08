@@ -27,7 +27,7 @@
     - Handle outliers
 3. Feature Scaling and Split dataset
     - Feature Selection
-    - Feature Engineering
+    - Feature Engineering: Encoding
     - train test split
     - Feature Scaling
 4. Train, Test Model (Base line)
